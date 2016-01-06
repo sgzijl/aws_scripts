@@ -1,6 +1,8 @@
 security-group-cleanup
 --------------
 
+Script reads AWS credentials from the environment, unless you define `ACCESS_KEY` and `SECRET_KEY` inside the script.
+
 ```
 usage: security-group-cleanup.py [-h] [-r REGION] [-d DELETE]
 
